@@ -35,7 +35,7 @@ func isEmptyValue(v reflect.Value) bool {
 		return v.Uint() == 0
 	case reflect.Float32, reflect.Float64:
 		return v.Float() == 0
-	case reflect.Interface, reflect.Pointer:
+	case reflect.Interface, reflect.Ptr:
 		return v.IsNil()
 	}
 	return false
@@ -184,7 +184,7 @@ func rename(fields map[string]interface{}, v interface{}) map[string]interface{}
 }
 
 func getElemType(rt reflect.Type) reflect.Type {
-	for rt.Kind() == reflect.Pointer {
+	for rt.Kind() == reflect.Ptr {
 		rt = rt.Elem()
 	}
 	return rt
