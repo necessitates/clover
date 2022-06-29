@@ -5,8 +5,8 @@
 <h2 align="center">Base de datos NoSQL ligera orientada a documentos</h2>
 
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
-[![Go Reference](https://pkg.go.dev/badge/badge/github.com/ostafen/clover.svg)](https://pkg.go.dev/github.com/ostafen/clover)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ostafen/clover)](https://goreportcard.com/report/github.com/ostafen/clover)
+[![Go Reference](https://pkg.go.dev/badge/badge/github.com/necessitates/clover.svg)](https://pkg.go.dev/github.com/necessitates/clover)
+[![Go Report Card](https://goreportcard.com/badge/github.com/necessitates/clover)](https://goreportcard.com/report/github.com/necessitates/clover)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/ostafen/clover/branch/main/graph/badge.svg?token=R06H8FR47O)](https://codecov.io/gh/ostafen/clover)
 [![Join the chat at https://gitter.im/cloverDB/community](https://badges.gitter.im/cloverDB/community.svg)](https://gitter.im/cloverDB/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -33,7 +33,7 @@
 ## Instalación
 Asegúrate de que tienes un entorno Go funcional (Se requiere Go 1.13 o superior). 
 ```shell
-  GO111MODULE=on go get github.com/ostafen/clover
+  GO111MODULE=on go get github.com/necessitates/clover
 ```
 
 ## Bases de datos y colecciones
@@ -47,7 +47,7 @@ Para guardar documentos dentro de colecciones, deberás de abrir una base de dat
 ```go
 import (
 	"log"
-	c "github.com/ostafen/clover"
+	c "github.com/necessitates/clover"
 )
 
 ...

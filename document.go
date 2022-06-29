@@ -3,7 +3,7 @@ package clover
 import (
 	"strings"
 
-	"github.com/ostafen/clover/encoding"
+	"github.com/necessitates/clover/encoding"
 )
 
 // Document represents a document as a map.

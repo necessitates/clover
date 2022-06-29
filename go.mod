@@ -1,4 +1,4 @@
-module github.com/ostafen/clover
+module github.com/necessitates/clover
 
 go 1.17
 

@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	c "github.com/ostafen/clover"
+	c "github.com/necessitates/clover"
 	"github.com/stretchr/testify/require"
 )
 
